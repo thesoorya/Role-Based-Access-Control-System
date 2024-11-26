@@ -10,7 +10,7 @@ const Store = ({ children }) => {
     const [loading, setLoading] = useState(false);
 
     // Set Axios base URL (optional, for cleaner requests)
-    axios.defaults.baseURL = 'http://localhost:5000/api';
+    axios.defaults.baseURL = 'https://rbac-server-y2g9.onrender.com/api';
     axios.defaults.headers.common['Authorization'] = token ? `Bearer ${token}` : '';
     axios.defaults.withCredentials = true;
 
