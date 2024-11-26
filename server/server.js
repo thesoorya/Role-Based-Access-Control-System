@@ -16,7 +16,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://rvc038l9-5173.inc1.devtunnels.ms",
+      "https://rbac-client-ho7b.onrender.com",
     ],
     credentials: true,
   })
