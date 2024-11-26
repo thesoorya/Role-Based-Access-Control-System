@@ -1,6 +1,5 @@
 # Role-Based Access Control (RBAC) System
 
-## By
 Soorya Narayanan  
 Email: thesooryanarayanan@gmail.com
 
