@@ -1,0 +1,52 @@
+.employee-page {
+  min-height: 100vh;
+  padding: 10px;
+}
+.employee-page-user-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.employee-page-user-details {
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+}
+.employee-page-user-details h1 {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.employee-page-user-details p {
+  text-transform: capitalize;
+}
+.employee-page-task-title {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding: 10px;
+}
+.employee-page-task-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.employee-page-task-divs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.employee-page-task-card h2 {
+  font-weight: 500;
+}
+.employee-page-task-card p {
+  font-size: 14px;
+}
+.employee-page-task-divs select{
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 4px;
+}

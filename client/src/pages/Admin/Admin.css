@@ -1,0 +1,96 @@
+.admin-page {
+  width: 100%;
+  min-height: 100vh;
+}
+.admin-header {
+  position: relative;
+  padding: 10px 0;
+}
+.admin-panel-title {
+  width: 100%;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+}
+.admin-profile {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffb703;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.admin-profile-container{
+  position: absolute;
+  top: 10%;
+  right: 4%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 9;
+  background-color: #ccc;
+}
+.admin-profile-container b, small{
+  text-transform: capitalize;
+}
+.admin-profile-container-close{
+  position: inherit;
+  top: 2%;
+  right: 2%;
+  font-size: 18px;
+  cursor: pointer;
+}
+.data-tabs {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.data-tab {
+  text-align: center;
+  background-color: #8ecae6;
+  border: none;
+  border-radius: 25px;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.active-tab {
+  background-color: #ffb703;
+}
+.data-panel {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .data-tabs {
+    width: 100%;
+  }
+  .admin-panel-title {
+    font-size: 32px;
+  }
+  .admin-profile {
+    top: 5px;
+    right: 5px;
+  }
+  .admin-profile-container{
+    top: 15%;
+  }
+  .data-tab{
+    padding: 5px 10px;
+  }
+  .data-panel{
+    width: 100%;
+  }
+}

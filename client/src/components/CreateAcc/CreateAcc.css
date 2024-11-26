@@ -1,0 +1,48 @@
+.createAcc {
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.createAcc-form {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.createAcc-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.createAcc-input-container input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+.createAcc-form button {
+  width: 100%;
+  padding: 10px;
+  color: #fbfbfb;
+  background-color: #219ebc;
+  border-radius: 25px;
+}
+
+@media (max-width: 768px) {
+  .createAcc{
+    width: 100%;
+  }
+  .createAcc-form {
+    width: 100%;
+  }
+}

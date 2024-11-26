@@ -1,0 +1,52 @@
+.user-title {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding: 10px;
+}
+.user-card {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+.user-card p {
+  text-transform: capitalize;
+}
+.user-card p {
+  flex: 1;
+  text-align: center;
+}
+.user-edit-link a {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .user-card {
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    width: 100%;
+  }
+  .user-card p {
+    flex: 0;
+    text-align: left;
+  }
+  .user-edit-link a {
+    justify-content: flex-start;
+  }
+  .user-title {
+    font-size: 18px;
+  }
+}
